@@ -20,8 +20,8 @@ PlantConfig = {
     },
 
     -- Plant Growing time in minutes
-    -- GrowthTime = 30, -- Original
-    GrowthTime = 2,
+    GrowthTime = 30, -- Original
+    -- GrowthTime = 2,
     -- How much longer should a male plant take to grow less is faster
     MaleFactor = 1.0,
     -- How many seeds should come from a male plant (range)
