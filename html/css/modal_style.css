@@ -1,0 +1,81 @@
+.modal-confirmation {
+	margin-top: 20% !important;
+	max-width: 20% !important;
+	height: 20%;
+}
+
+.modal-body {
+	background: rgba(26, 26, 26, 0.74) !important;
+	border: 5px solid rgba(255,255,255,0.5)!important;
+}
+
+.btn-modal {
+	display: block;
+	border-radius: 3px;
+	width: 20%;
+	height: 30%;
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: white;
+	margin-top: 5%;
+	background: #478d00;
+}
+
+.btn-modal:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	background: #2e5c00;
+}
+
+.modal-title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.modal-btn-holder {
+	margin-top: 1rem;
+	height: 60px;
+	width: 100%;
+	display: flex;
+}
+
+.btn-modal-yes {
+	border-radius: 3px;
+	width: 40%;
+	height: 70%;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: white;
+	background: #478d00;
+	margin-left: 7%;
+}
+
+.btn-modal-yes:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	background: #2e5c00;
+}
+
+.btn-modal-no {
+	border-radius: 3px;
+	margin-left: 5%;
+	width: 40%;
+	height: 70%;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: white;
+	background: #9e0000;
+}
+
+.btn-modal-no:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+	background: #5e0000;
+}

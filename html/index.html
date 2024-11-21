@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="blocked" id ="drugsui">
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/main_style.css">
+	<link rel="stylesheet" type="text/css" href="css/modal_style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/background.css">
+</head>
+<body>
+	<div class="modal" id="modal-confirmation" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-confirmation">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="text-center">
+						<p class="modal-title">Искаш ли да премахнеш разстението?</p>
+					</div>
+					<div class="modal-btn-holder">
+						<a class="btn-modal-yes btn-main text-center" data-bs-dismiss="modal" onclick="modalButtonYes()">Да</a>
+						<a class="btn-modal-no btn-main text-center" data-bs-dismiss="modal">Не</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="upper">
+
+	</div>
+
+	<div class="window">
+		<div class="progress-outer">
+			<p class="progress-indicator" id="progress-indicator">0%</p>
+			<div class="progress-inner" id="progress-done">
+
+			</div>
+		</div>
+
+		<div class="lower-part container-fluid">
+			<div class="row">
+				<div class="spacer col-1">
+					
+				</div>
+				<div class="pic-holder col-6">
+					<div class="picture" id="picture">
+						
+					</div>
+				</div>
+
+				<div class="menu-holder col-5">
+					<a id="giveWaterBtnEnabled" class="btn-water btn-main text-center " onclick="giveWaterToSelectedWeedPot()">Полей</a>
+					<a id="giveWaterBtnDisabled" class="btn-disabled btn-main text-center ">Полей</a>
+					<a id="getCannabisBtnEnabled" class="btn-harvest btn-main text-center " onclick="getCannabisFromSelectedWeedPot()">Обери</a>
+					<a id="getCannabisBtnDisabled" class="btn-disabled btn-main text-center ">Обери</a>
+					<a class="btn-remove btn-main text-center" data-bs-toggle="modal" data-bs-target="#modal-confirmation">Премахни</a>
+					<a class="btn-close-window btn-main text-center" onclick="closeWeedPotUI()">Затвори</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Including jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
