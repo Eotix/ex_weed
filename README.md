@@ -11,3 +11,4 @@
 ## Preview: (https://youtu.be/rrKfCahvCuw)
 
 ## Discord: https://discord.gg/kC2j5q7PCg
+СКРИПТА Е ПИСАН НА ПЪРВАТА ВЕРСИЯ НА QB(QBus) МОЖЕ ДА ТРЯБВАТ НЯКАКВИ ДОРАБОТКИ ЗА ПО-НОВИ ВЕРСИИ!
